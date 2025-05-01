@@ -35,6 +35,7 @@ BuildRequires:  libpwquality-devel
 BuildRequires:  pulseaudio-libs-devel
 BuildRequires:  tecla
 BuildRequires:  colord-devel
+BuildRequires:  gnome-desktop4-devel
 
 
 
