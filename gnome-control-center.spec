@@ -10,7 +10,7 @@
 %define libadwaita_version 1.7~alpha
 %define nm_version 1.24.0
 
-Name:           borshevik-control-center
+Name:           gnome-control-center
 Version:        48.1
 Release:        1.borshevik%{?dist}
 Summary:        GNOME's main interface to configure various aspects of the desktop (Borshevik)
