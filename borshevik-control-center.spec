@@ -127,10 +127,9 @@ Suggests: tuned-ppd
 %endif
 %endif
 
-# Renamed in F28
-Provides: control-center = 1:%{version}-%{release}
-Provides: control-center%{?_isa} = 1:%{version}-%{release}
-Obsoletes: control-center < 1:%{version}-%{release}
+Provides: gnome-control-center = %{version}-%{release}
+Obsoletes: gnome-control-center
+Conflicts: gnome-control-center
 
 %description
 This package contains configuration utilities for the GNOME desktop, which
