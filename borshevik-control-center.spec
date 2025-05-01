@@ -10,9 +10,8 @@ Source1:        borshevik-logo.patch
 Source2:        enable-vrr-default.patch
 Source3:        enable-fractional-scaling-default.patch
 
-Patch0:         borshevik-logo.patch
-Patch1:         enable-vrr-default.patch
-Patch2:         enable-fractional-scaling-default.patch
+Patch0:         enable-vrr-default.patch
+Patch1:         enable-fractional-scaling-default.patch
 
 BuildRequires:  meson
 BuildRequires:  ninja-build
@@ -67,8 +66,4 @@ Includes modified ID-to-logo mapping and distro-specific appearance patches.
 %{_datadir}/gnome-control-center/
 
 %changelog
-* Wed May 01 2025 Komorebi <markovs.i.mail@gmail.com> - 48.1-1.borshevik
-- Add branding patch to recognize ID=borshevik and load custom logo icon
-- Enable VRR by default
-- Enable fractional scaling by default
-- Initial release for Borshevik OS
+%autochangelog
