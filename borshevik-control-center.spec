@@ -34,6 +34,8 @@ BuildRequires:  libcanberra-devel
 BuildRequires:  libpwquality-devel
 BuildRequires:  pulseaudio-libs-devel
 BuildRequires:  tecla
+BuildRequires:  colord-devel
+
 
 
 Requires:       gsettings-desktop-schemas
