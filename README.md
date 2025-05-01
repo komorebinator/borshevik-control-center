@@ -1,6 +1,6 @@
 # borshevik-control-center
 
-This is a patched version of [GNOME Control Center](https://gitlab.gnome.org/GNOME/gnome-control-center) customized for [Borshevik OS](https://github.com/komorebithrowsatable/komorebi-os).
+This is a patched version of [GNOME Control Center](https://gitlab.gnome.org/GNOME/gnome-control-center) customized for [Borshevik](https://github.com/komorebithrowsatable/komorebi-os).
 
 It includes branding and configuration changes tailored to the Borshevik desktop experience.
 
