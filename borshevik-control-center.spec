@@ -46,7 +46,7 @@ This is a patched version of GNOME Control Center customized for Borshevik OS br
 Includes modified ID-to-logo mapping and distro-specific appearance patches.
 
 %prep
-%autosetup -p1
+%autosetup -p1 -n gnome-control-center-%{version}
 %patch 1 -p1
 %patch 2 -p1
 
@@ -67,7 +67,7 @@ Includes modified ID-to-logo mapping and distro-specific appearance patches.
 %{_datadir}/gnome-control-center/
 
 %changelog
-* Wed May 01 2025 komorebi <markovs.i.mail@gmail.com> - 48.1-1.borshevik
+* Wed May 01 2025 Komorebi <markovs.i.mail@gmail.com> - 48.1-1.borshevik
 - Add branding patch to recognize ID=borshevik and load custom logo icon
 - Enable VRR by default
 - Enable fractional scaling by default
