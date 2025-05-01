@@ -6,6 +6,9 @@ Summary:        GNOME's main interface to configure various aspects of the deskt
 License:        GPLv2+
 URL:            https://gitlab.gnome.org/GNOME/gnome-control-center
 Source0:        https://download.gnome.org/sources/gnome-control-center/48/gnome-control-center-%{version}.tar.xz
+Source1:        borshevik-logo.patch
+Source2:        enable-vrr-default.patch
+Source3:        enable-fractional-scaling-default.patch
 
 Patch0:         borshevik-logo.patch
 Patch1:         enable-vrr-default.patch
@@ -64,6 +67,7 @@ Includes modified ID-to-logo mapping and distro-specific appearance patches.
 %{_datadir}/gnome-control-center/
 
 %changelog
+* Wed May 01 2025 komorebi <markovs.i.mail@gmail.com> - 48.1-1.borshevik
 - Add branding patch to recognize ID=borshevik and load custom logo icon
 - Enable VRR by default
 - Enable fractional scaling by default
