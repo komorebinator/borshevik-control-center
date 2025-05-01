@@ -12,7 +12,7 @@
 
 Name:           gnome-control-center
 Version:        48.1
-Release:        1.borshevik%{?dist}
+Release:        100.borshevik%{?dist}
 Summary:        GNOME's main interface to configure various aspects of the desktop (Borshevik)
 
 License:        GPLv2+
