@@ -33,6 +33,8 @@ BuildRequires:  libadwaita-devel
 BuildRequires:  libcanberra-devel
 BuildRequires:  libpwquality-devel
 BuildRequires:  pulseaudio-libs-devel
+BuildRequires:  tecla
+
 
 Requires:       gsettings-desktop-schemas
 Requires:       adwaita-icon-theme
