@@ -6,9 +6,8 @@ Summary:        GNOME's main interface to configure various aspects of the deskt
 License:        GPLv2+
 URL:            https://gitlab.gnome.org/GNOME/gnome-control-center
 Source0:        https://download.gnome.org/sources/gnome-control-center/48/gnome-control-center-%{version}.tar.xz
-Source1:        borshevik-logo.patch
-Source2:        enable-vrr-default.patch
-Source3:        enable-fractional-scaling-default.patch
+Source1:        enable-vrr-default.patch
+Source2:        enable-fractional-scaling-default.patch
 
 Patch0:         enable-vrr-default.patch
 Patch1:         enable-fractional-scaling-default.patch
@@ -33,6 +32,7 @@ BuildRequires:  itstool
 BuildRequires:  libadwaita-devel
 BuildRequires:  libcanberra-devel
 BuildRequires:  libpwquality-devel
+BuildRequires:  pulseaudio-libs-devel
 
 Requires:       gsettings-desktop-schemas
 Requires:       adwaita-icon-theme
@@ -46,8 +46,8 @@ Includes modified ID-to-logo mapping and distro-specific appearance patches.
 
 %prep
 %autosetup -p1 -n gnome-control-center-%{version}
+%patch 0 -p1
 %patch 1 -p1
-%patch 2 -p1
 
 %build
 %meson
