@@ -21,7 +21,6 @@ BuildRequires:  libnma-devel
 BuildRequires:  libwacom-devel
 BuildRequires:  libsecret-devel
 BuildRequires:  libgtop2-devel
-BuildRequires:  udisks2-devel
 BuildRequires:  accountsservice-devel
 BuildRequires:  systemd-devel
 BuildRequires:  libxml2-devel
