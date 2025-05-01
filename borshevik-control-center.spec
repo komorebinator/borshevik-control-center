@@ -12,7 +12,7 @@
 
 Name:           borshevik-control-center
 Version:        48.1
-Release:        %autorelease
+Release:        1.borshevik%{?dist}
 Summary:        GNOME's main interface to configure various aspects of the desktop (Borshevik)
 
 License:        GPLv2+
