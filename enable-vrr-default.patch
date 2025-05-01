@@ -1,0 +1,8 @@
+diff --git a/panels/display/cc-display-panel.c b/panels/display/cc-display-panel.c
+index 1234567..89abcdef 100644
+--- a/panels/display/cc-display-panel.c
++++ b/panels/display/cc-display-panel.c
+@@ static void cc_display_panel_init (CcDisplayPanel *self)
+ {
++    g_settings_set_boolean (self->display_settings, "enable-vrr", TRUE);
+ }

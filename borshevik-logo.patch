@@ -1,0 +1,12 @@
+diff --git a/panels/info/cc-info-panel.c b/panels/info/cc-info-panel.c
+index abcdef1..1234567 100644
+--- a/panels/info/cc-info-panel.c
++++ b/panels/info/cc-info-panel.c
+@@ static const struct {
+   const gchar *id;
+   const gchar *logo_icon;
+ } os_logo_table[] = {
++  { "borshevik", "borshevik-logo-icon" },
+   { "debian", "emblem-debian" },
+   { "ubuntu", "emblem-ubuntu" },
+   { "endless", "emblem-endless" },
