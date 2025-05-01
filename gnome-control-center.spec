@@ -161,8 +161,8 @@ utilities.
 %meson \
   -Ddocumentation=true \
   -Dlocation-services=enabled \
-  -Ddistributor_logo=/usr/share/pixmaps/borshevik_logo.svg \
-  -Ddark_mode_distributor_logo=/usr/share/pixmaps/borshevik_logo_dark.svg \
+  -Ddistributor_logo=/usr/share/pixmaps/borshevik_logo.png \
+  -Ddark_mode_distributor_logo=/usr/share/pixmaps/borshevik_logo_dark.png \
   %{nil}
 %meson_build
 
