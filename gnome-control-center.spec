@@ -13,7 +13,7 @@
 Name:           gnome-control-center
 Version:        48.2
 Epoch:          1 
-Release:        100.borshevik%{?dist}
+Release:        1%{?dist}
 Summary:        GNOME's main interface to configure various aspects of the desktop (Borshevik)
 
 License:        GPLv2+
@@ -127,10 +127,6 @@ Suggests: power-profiles-daemon
 Suggests: tuned-ppd
 %endif
 %endif
-
-Provides: gnome-control-center = %{version}-%{release}
-Obsoletes: gnome-control-center
-Conflicts: gnome-control-center
 
 %description
 This package contains configuration utilities for the GNOME desktop, which
