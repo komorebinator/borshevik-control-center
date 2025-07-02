@@ -11,7 +11,7 @@
 %define nm_version 1.24.0
 
 Name:           gnome-control-center
-Version:        48.2
+Version:        48.3
 Epoch:          1 
 Release:        1%{?dist}
 Summary:        GNOME's main interface to configure various aspects of the desktop (Borshevik)
